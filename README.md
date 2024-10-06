@@ -14,11 +14,30 @@ The project includes:
 - **Model Evaluation**: Assessing the models' performance using accuracy, precision, and ROC-AUC.
 - **Visualization**: Training loss over epochs and ROC curves for both models.
 
-## Project Structure
+## EDA (exploratory data analysis)
 
 
+## EDA (Exploratory Data Analysis)
 
-## Project Structure
+Before building the models, we explored the data to understand its distribution and key characteristics. Below are some key visualizations from the EDA process:
+
+### 1. **Distribution of Credit Default**
+
+This plot shows how many customers defaulted on their payments versus those who didn’t:
+
+![Credit Default Distribution](results/eda_credit_default_distribution.png)
+
+### 2. **Correlation Heatmap**
+
+This heatmap visualizes the correlations between various features in the dataset. Darker colors indicate stronger correlations:
+
+![Correlation Heatmap](results/eda_correlation_heatmap.png)
+
+### 3. **Boxplot of Credit Limit (`LIMIT_BAL`)**
+
+The boxplot shows the distribution of credit limits (`LIMIT_BAL`) for customers who defaulted and those who didn’t:
+
+![Boxplot of LIMIT_BAL](results/eda_boxplot_LIMIT_BAL.png)
 
 ## Setup Instructions
 
