@@ -12,7 +12,7 @@ trained_models/
 *.pth
 
 # Ignore results and generated plots
-results/
+
 
 
 # Ignore virtual environment folders
