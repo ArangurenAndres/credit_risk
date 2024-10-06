@@ -1,0 +1,30 @@
+# Ignore data files and datasets
+data/
+*.csv
+*.xlsx
+*.json
+*.zip
+
+# Ignore models
+trained_models/
+*.h5
+*.pkl
+*.pth
+
+# Ignore results and generated plots
+results/
+
+
+# Ignore virtual environment folders
+venv/
+env/
+.venv/
+
+# Ignore compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore system files
+.DS_Store
+Thumbs.db
